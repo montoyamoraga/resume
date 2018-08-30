@@ -1,0 +1,144 @@
+\documentclass[10pt,a4paper, sans]{moderncv}
+
+% moderncv themes
+\moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage{footmisc}
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+%\usepackage{hyperref}								% to use hyperlinks
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\firstname{Aarón}
+\familyname{Montoya-Moraga}
+\address{montoyamoraga.io}{}    % optional, remove the line if not wanted
+\phone{+1 347 884 2955\\}
+\email{montoyamoraga@gmail.com}
+%\extrainfo{Nacionalidad: chileno \\ Birth date: July-03-1989 } % optional, remove the line if not wanted
+%\extrainfo{Nationality: Chilean}
+%\extrainfo{}
+
+% optional, remove the line if not wanted
+%\email{\href{mailto:agallyascl}{agallyascl}}                      % optional, remove the line if not wanted
+%\photo[60pt][0pt]{LaFotoSlim.png}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Working experience}
+% \cventry{2018}{Translator}{Processing Foundation}{Translation to Spanish of Introduction to p5.js book}{}{}
+\cventry{2017 - 2018}{Research resident}{New York University}{Teaching assistant and researcher at NYU ITP}{}{}
+\cventry{2017 - Present}{Programmer}{Processing Foundation}{i18n work for the p5.js website}{}{}
+\cventry{2017}{Programmer}{María José Contreras Lorenzini}{software for real-time remote performance}{}{}
+\cventry{2016}{Instructor}{Processing Foundation}{design and teaching of creative coding workshops in Spanish}{}{}
+\cventry{2016}{Translator}{Critter \& Guitari}{Organelle instrument manual translation from English to Spanish}{}{}
+% \cventry{2016 - present}{Music producer}{Javiera Plana}{recording, mixing, mastering and production of her debut album}{}{}
+\cventry{2015}{Teacher}{Penta UC}{creator of intro to CS and computer music course for high school students}{}{}
+\cventry{2014 - 2015}{Programmer}{María José Contreras Lorenzini}{software for real-time audiovisual manipulation}{}{}
+\cventry{2013}{Teaching assistant}{PUC Chile}{Psychoacoustics, Digital Systems lectures}{}{}
+% \cventry{2013}{Teaching assistant}{PUC Chile}{Digital Systems class, Professor Cristián Tejos, EE department}{}{}
+%\cventry{2014 - 2015}{Cóndor Jet}{live visuals system triggered by live audio}{custom real-time system for live shows with the band}{}{}
+%\cventry{2014}{Patricio Cáceres}{Recording of demos at own studio}{Application to State grant}{}{}
+%\cventry{2014}{Patricio Cáceres}{Recording and mixing of live session at own studio}{Video clip on Youtube}{}{}
+%\cventry{2014}{Municipality of Colina}{Renewal energies researcher}{Engineering internship}{}{}
+%\cventry{2013 - today}{Music producer}{own recording studio}{rehearsal, recording and mixing services}{}{}
+
+\section{Affiliations}
+\cventry{2018 - present}{Kinectron}{open-source software}{programmer, developer, tutorial writer}{}{}
+\cventry{2017 - present}{CODED}{media arts school}{co-founder and teacher of intro to programming for artists in Spanish}{}{}
+\cventry{2015 - present}{p5.js}{Processing Foundation}{developer and translator of p5.js website and book in Spanish}{}{}
+% \cventry{2016 - present}{Víctor Raúl}{solo performance act}{live performer of audiovisual pieces including live coding, computer speech and sound manipulation}{}{}
+% \cventry{2013 - present}{Va la paloma}{noise music duo}{bassist, programmer, producer and writer}{}{}
+
+\section{Education}
+%\cventry{year -- year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+\cventry{2018}{School of Machines, Autonomous Generative Spirit}{Machine learning workshop}{}{}{}
+
+\cventry{2015 - 2017}{New York University, Interactive Telecommunications Program}{Master's degree}{}{}{}
+
+\cventry{2008 - 2014}{Pontificia Universidad Católica de Chile, Electrical Engineering}{Professional Degree and B.S.}{}{}{}
+
+\section{Awards}
+
+\cventry{2017}{New York University, Institute of Performing Arts}{grant}{funds for developing performance}{}{}
+
+\cventry{2017}{New York University, Graduate Student Organization}{grant}{funds for developing installation}{}{}
+
+\cventry{2015}{Ministry of Education, Chile}{grant}{complete funding of graduate studies at New York University}{}{}
+
+%\section{Academic background}
+
+%\subsection{Formación en música y acústica}
+%\cventry{2013}{Taller de arte interactivo}{Estudio de diversas estrategias para lograr integrar soluciones tecnológicas a desafíos artísticos}{Profesores: Rodrigo Cádiz y Patricio de la Cuadra}{}{}
+%\cventry{2013}{Técnicas de síntesis y procesamiento de sonido}{Revisión de diversas técnicas para sintetizar y analizar sonido, además de los fundamentos para poder procesar audio en tiempo real, mediante el diseño de filtros y efectos}{Profesor: Rodrigo Cádiz}{}{}
+%\cventry{2013}{Introducción a la música electroacústica}{Aprendizaje de técnicas para manipular audio en tiempo real, basado en Max MSP}{Profesor: Cristián Morales}{}{}
+%\cventry{2011}{Psicoacústica}{Estudio del fenómeno del sonido en su dimensión perceptual, incluyendo umbrales de audibilidad, discriminación de frecuencia e intensidad, resolución temporeal, fenómeno de enmascaramiento, entre otros.}{Profesor: Rodrigo Cádiz}{}{}
+
+%\subsection{Research}
+%\cventry{2015 }{Sonification of Medical Images Based on Statistical Descriptors}{Paper published in the International Computer Music Conference 2015}{Coauthors: Rodrigo Cádiz, Patricio de la Cuadra, et al}{}{}
+
+%\cventry{2013 - 2015}{Sonification of biomedical images}{Research assistant, software development in Python and Max MSP}{Advisors: Rodrigo Cádiz, Patricio de la Cuadra}{}{}
+%\cventry{2014}{Development of musical instrument Arcontinuo}{Research assistant, software development in Python and Arduino}{Advisors: Rodrigo Cádiz, Patricio de la Cuadra}{}{}
+
+%\subsection{Teaching assistantships}
+%\cventry{2014}{Psychoacoustics}{Profesor: Rodrigo Cádiz}{Music Institute}{}{}
+%\cventry{2012}{Digital systems}{Profesor: Cristián Tejos}{Engineering school}{}{}
+
+\section{Talks}
+\cventry{2018}{Pioneer Works}{Software for Artists Day}{Artist talk}{Brooklyn, NY}{}
+\cventry{2017}{New York University}{Dance and New Media Conference}{Artist talk}{New York, NY}{}
+
+\section{Exhibitions and shows}
+\cventry{2017 - present}{Curation}{New Latin Wave Festival}{Brooklyn NY}{}{}
+\cventry{2017 - present}{Curation}{Frequency Sweep Festival}{New York NY}{}{}
+\cventry{2016}{Group exhibitions}{World Maker Faire, NYC CS Fair, Salamanca Moves, alt-ai}{NY USA \& Tasmania}{}{}
+% \cventry{2016}{World Maker Faire}{Rube telephone}{speech-synthesis installation with Chino Kim}{Queens, NY}{}
+% \cventry{2016}{World Maker Faire}{Rube telephone}{speech-synthesis installation with Chino Kim}{Queens, NY}{}
+% \cventry{2016}{NYC CS Fair}{Rube telephone}{speech-synthesis installation with Chino Kim}{New York NY}{}
+% \cventry{2016}{Salamanca Moves}{Puppet}{interactive installation with Donald Shorter Jr and Yuli Cai}{Tasmania}{}
+% \cventry{2016}{alt-ai}{Die Hard Piano}{machine-learning installation with Corbin Ordel}{New York NY}{}
+
+%{Exhibited at World Maker Faire, Google Geek Street Fair, Computer Science Fair NYC}{}{}{}
+%\section{Languages}
+%\cvitem{Spanish}{Native language}
+%\cvitem{English}{TOEFL \small August 2013, score \textit{114/120} }
+%\cvitem{German}{Sprachdiplom II, year 2007}
+
+\section{Technological skills}
+
+\cvitem{Programming}{Python, Java, JS, HTML, CSS, node.js, p5.js, Selenium, \LaTeX, Git, GitHub, BitBucket}
+\cvitem{ML}{ml5.js, Runway, Wekinator}
+\cvitem{Audio}{Ableton Live, Audacity, Max, Pure Data, ChucK, Reason}
+\cvitem{Protocols}{MIDI, Serial, OSC, Syphon}
+\cvitem{PhysComp}{Arduino, Teensy, Raspberry Pi, Kinect}
+\cvitem{Multimedia}{Processing, TouchDesigner, MadMapper, Isadora, Millumin}
+
+\section{References}
+
+\cventry{}{Available upon request}{montoyamoraga@gmail.com}{}{}{}
+
+\end{document}
